@@ -1,3 +1,4 @@
+// servidor.js
 const express = require('express');
 const cors = require('cors');
 const app = express();
@@ -13,3 +14,4 @@ app.post('/enviar', (req, res) => {
 app.listen(3000, () => {
   console.log('Servidor escuchando en http://localhost:3000');
 });
+
